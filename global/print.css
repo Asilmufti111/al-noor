@@ -1,0 +1,35 @@
+/* Hide unnecessary elements when printing */
+#header, #nav, #footer {
+    display: none;
+}
+
+/* Ensure only the table content is printed */
+#schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Improve table styling for print */
+#schedule-table th, #schedule-table td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Make headers bold and easy to read */
+#schedule-table th {
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+/* Ensure even row coloring is visible */
+#schedule-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Page Setup */
+@page {
+    size: A4; /* Set paper size */
+    margin: 20mm; /* Define margins */
+}

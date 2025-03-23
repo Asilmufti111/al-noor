@@ -1,0 +1,89 @@
+<!-- Names: Asil Mufti , Hayat Alzahrani , shrooq Kaabi
+ IDs: 2106122 , 2105101 , 2205003
+ Section: IAR
+ Date: 22- 3- 2025
+-->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Information -->
+    <meta charset="UTF-8"> <!-- Defines character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design -->
+
+    <!-- Page Title -->
+    <title>Islamic Quizzes - Al-Noor</title>
+
+    <!-- Linking External CSS -->
+    <link rel="stylesheet" href="../global/main.css">
+</head>
+<body>
+
+        <!-- Header -->
+        <div id="header">
+            <h1>Islamic Quizzes</h1>
+            <p>Test your knowledge of Islam</p>
+        </div>
+
+        <!-- Navigation -->
+        <div id="nav">
+            <ul>
+                <li><a href="../index.html">Home</a></li> <!-- Link to Home Page -->
+                <li><a href="about.html">About</a></li> <!-- Link to About Page -->
+                <li><a href="services.html">Services</a></li> <!-- Link to Services Page -->
+                <li><a href="feedback.html">Feedback</a></li> <!-- Link to Feedback Page -->
+            </ul>
+        </div>
+
+        <!-- Quiz Section -->
+        <div id="container">
+            <section class="quiz-section">
+                <h2 class="quiz-title">Islamic Knowledge Quiz</h2>
+                <p>Choose the correct answer for each question and test your understanding.</p>
+
+                <!-- Quiz Questions -->
+                <div class="quiz">
+                    <h3>1. How many chapters (Surahs) are in the Quran?</h3>
+                    <button class="option" onclick="checkAnswer(this, 'correct')">114</button>
+                    <button class="option" onclick="checkAnswer(this, 'wrong')">99</button>
+                    <button class="option" onclick="checkAnswer(this, 'wrong')">110</button>
+                    <button class="option" onclick="checkAnswer(this, 'wrong')">120</button>
+                </div>
+
+                <div class="quiz">
+                    <h3>2. What is the first word revealed in the Quran?</h3>
+                    <button class="option" onclick="checkAnswer(this, 'correct')">Iqra (Read)</button>
+                    <button class="option" onclick="checkAnswer(this, 'wrong')">Salah (Pray)</button>
+                    <button class="option" onclick="checkAnswer(this, 'wrong')">Tawheed (Oneness)</button>
+                    <button class="option" onclick="checkAnswer(this, 'wrong')">Noor (Light)</button>
+                </div>
+
+                <div class="quiz">
+                    <h3>3. What is the name of the Angel who brought revelation to Prophet Muhammad (PBUH)?</h3>
+                    <button class="option" onclick="checkAnswer(this, 'correct')">Jibreel (Gabriel)</button>
+                    <button class="option" onclick="checkAnswer(this, 'wrong')">Mikail (Michael)</button>
+                    <button class="option" onclick="checkAnswer(this, 'wrong')">Israfeel</button>
+                    <button class="option" onclick="checkAnswer(this, 'wrong')">Izra'il</button>
+                </div>
+
+                <p id="quiz-result"></p> <!-- Result Message -->
+            </section>
+        </div> <!-- End of Container -->
+
+        <!-- Footer Section -->
+        <div id="footer">
+            <div class="footer-left">
+                <p>&copy; 2025 Al-Noor. All rights reserved.</p> <!-- Copyright Information -->
+            </div>
+            <div class="footer-right">
+                <address>
+                    Al-Noor Islamic Center<br>
+                    123 Faith Street, Jeddah, Saudi Arabia<br>
+                    Email: contact@alnoor.com<br>
+                    Phone: +123-456-7890
+                </address>
+            </div>
+        </div>
+
+
+</body>
+</html>

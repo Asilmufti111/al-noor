@@ -1,0 +1,472 @@
+/* ========== General Styles ========== */
+body {
+    font-family: Arial, sans-serif; /* Sets default font */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark gray text color */
+}
+
+/* ========== Header Styling ========== */
+#header {
+    background-color: #065535; /* Dark green background */
+    color: white; /* White text color */
+    text-align: center; /* Centers text */
+    padding: 20px; /* Adds space inside the header */
+}
+
+/* ========== Navigation Bar Styling ========== */
+#nav {
+    background-color: #034732; /* Darker green background */
+    padding: 10px; /* Adds space inside the navigation bar */
+    text-align: center; /* Centers navigation items */
+}
+
+/* Navigation Menu List */
+#nav ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0; /* Removes padding */
+}
+
+/* Navigation Items */
+#nav ul li {
+    display: inline; /* Displays items in a row */
+    margin: 0 15px; /* Adds space between menu items */
+}
+
+/* Navigation Links */
+#nav ul li a {
+    color: white; /* White text color */
+    text-decoration: none; /* Removes underline */
+    font-size: 18px; /* Sets font size */
+}
+
+/* ========== Hero Section (Main Banner) ========== */
+#hero {
+    text-align: center; /* Centers text */
+    padding: 50px; /* Adds space inside */
+    background: url("../images/masjid.png") no-repeat center center/cover; /* Sets background image */
+    color: white; /* White text color */
+}
+
+/* Hero Section Title */
+#hero h2 {
+    font-size: 36px; /* Large text size */
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block; /* Allows padding and margin */
+    padding: 10px 20px; /* Adds space inside */
+    margin-top: 20px; /* Adds space above */
+    background-color: #2a6136; /* Green button color */
+    color: white; /* White text */
+    text-decoration: none; /* Removes underline */
+    border-radius: 5px; /* Rounds button corners */
+}
+
+/* ========== Main Content Section ========== */
+#content {
+    padding: 20px; /* Adds space inside */
+    text-align: center; /* Centers text */
+}
+
+/* ========== Footer Styling ========== */
+
+
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #034732; /* Dark green background */
+    color: white; /* White text */
+        border-top: 1px solid #ddd; /* Optional border */
+        margin-top: 20px; /* Adds space above */
+
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-right address {
+    text-align: left; /* Ensures the text inside the address is left-aligned */
+    display: inline-block; /* Keeps the width to content size */
+}
+
+
+
+/* ========== Schedule Page Styles ========== */
+/* Table Styling */
+table {
+    width: 80%; /* Sets table width */
+    margin: 20px auto; /* Centers table */
+    border-collapse: collapse; /* Merges table borders */
+}
+
+/* Table Headers and Data Cells */
+th, td {
+    padding: 12px; /* Adds space inside cells */
+    border: 1px solid #ddd; /* Light gray border */
+    text-align: center; /* Centers text */
+}
+
+/* Table Header Styling */
+th {
+    background-color: #065535; /* Dark green background */
+    color: white; /* White text color */
+}
+
+/* Alternating Row Colors for Better Readability */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+}
+
+/* ========== About Page Styles ========== */
+.content, .vision, .mission, .aims {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Apply Styling Only to About Page Titles */
+.section-title {
+    color: #065535;
+    text-align: center;
+}
+
+/* List Styling */
+.aims ol {
+    margin-left: 20px;
+}
+
+  /* ========== Feedback Form Styling ========== */
+#feedback-form {
+    width: 60%; 
+    margin: 40px auto; /* Centers form container */
+    background: white; /* White background */
+    padding: 25px; /* Adds padding */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* Enhances shadow effect */
+    border-radius: 5px; /*  more rounded corners */
+    text-align: center; /* Centers text inside */
+}
+
+/* Form Structure */
+form {
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    align-items: center; /* Centers form elements */
+    width: 100%;
+}
+
+/* Form Labels */
+label {
+    font-weight: bold; /* Makes labels bold */
+    margin-top: 12px; /* Adds space above labels */
+    align-self: flex-start; /* Aligns label text to left */
+    font-size: 16px; /* Improves readability */
+    color: #333; /* Darker color for contrast */
+}
+
+/* Input Fields & Textarea */
+input, textarea, select {
+    width: 100%; /* Makes fields full width */
+    padding: 12px; /* Adds padding */
+    margin: 6px 0; /* Adds margin */
+    border: 1px solid #bbb; /* darker border */
+    border-radius: 6px; /* More rounded corners */
+    font-size: 16px; /* Increases font size */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Input Focus Effect */
+/* Radio & Checkbox Groups */
+.radio-group, .checkbox-group {
+    display: flex;
+    flex-wrap: wrap; /*  items to wrap */
+    gap: 15px;
+    justify-content: center;
+}
+
+.checkbox-group {
+    flex-direction: row; /* Aligns checkboxes horizontally */
+    align-items: center; /* Centers the checkboxes vertically */
+}
+
+.radio-group {
+    flex-direction: row; /* Aligns radio buttons horizontally */
+    align-items: center; /* Centers radio buttons vertically */
+}
+
+/* Adjust the space between each label */
+.checkbox-group label, .radio-group label {
+    margin-right: 20px; /* Adds space between items */
+}
+
+/* Input Fields & Textarea */
+input, textarea, select {
+    width: 100%; /* Makes fields full width */
+    padding: 12px; /* Adds padding */
+    margin: 6px 0; /* Adds margin */
+    border: 1px solid #bbb; /* Slightly darker border */
+    border-radius: 6px; /* More rounded corners */
+    font-size: 16px; /* Increases font size */
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* Make checkbox labels appear horizontally */
+.checkbox-group {
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Add space between User Preferences and Services Used */
+#feedback-form label + .checkbox-group {
+    margin-bottom: 50px; /* Adds space between Services Used and the previous section */
+}
+
+
+/* Submit Button */
+#feedback-form .btn {
+    display: inline-block; /* Allows padding and margin */
+    padding: 12px 25px; /* More padding for a larger button */
+    margin-top: 20px; /* Adds space above */
+    background-color: #2a6136; /* Green button color */
+    color: white; /* White text */
+    font-size: 18px; /* Increases font size */
+    border: none; /* Removes default border */
+    border-radius: 6px; /* Rounds corners */
+    cursor: pointer; /* Indicates clickable button */
+    transition: background 0.3s ease-in-out;
+}
+
+/* Hover Effect for Button */
+#feedback-form .btn:hover {
+    background-color: #034732; /* Darker green on hover */
+}
+
+/* ========== Services page ========== */
+ /* This is the main container for all the service boxes */
+.services-container {
+    display: flex; /* Puts the boxes in a row */
+    flex-wrap: wrap; /* Moves boxes to a new line if there’s not enough space */
+    justify-content: center; /* Centers the boxes on the page */
+    gap: 20px; /* Adds space between the boxes */
+    padding: 50px; /* Adds space around the whole section */
+}
+
+/* This styles each individual service box */
+.service-box {
+    background: white; /* Makes the box background white */
+    padding: 20px; /* Adds space inside the box */
+    border-radius: 8px; /* Rounds the corners of the box */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a light shadow for a 3D effect */
+    width: 300px; /* Sets the width of each box */
+    text-align: center; /* Centers the text inside the box */
+    transition: transform 0.3s ease-in-out; /* Makes animations smooth */
+}
+
+/* When the user hovers over a service box */
+.service-box:hover {
+    transform: translateY(-5px); /* Moves the box slightly up */
+}
+
+/* This styles the service title (like "Prayer Schedule") */
+.service-title {
+    color: #065535; /* Sets the text color to dark green */
+    font-size: 20px; /* Makes the title larger */
+    margin-bottom: 10px; /* Adds space below the title */
+}
+
+/* This styles the service description (small text under the title) */
+.service-description {
+    font-size: 16px; /* Sets the text size */
+    color: #555; /* Makes the text a little gray for better readability */
+}
+
+.services-page a {
+    color: inherit; /* Inherits the text color from its parent element */
+    text-decoration: none; /* Removes the underline */
+}
+
+
+/* ========== Donation page ========== */
+.donation-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    gap: 20px;
+}
+
+.donation-card {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    min-height: 300px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.donation-card:hover {
+    transform: translateY(-5px);
+}
+
+.donation-card img {
+    width: 100px;
+    height: 100px; 
+    object-fit: contain; 
+    margin-bottom: 15px;
+}
+
+.donation-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.donation-card p {
+    font-size: 14px;
+    color: #555;
+    flex-grow: 1; 
+    margin-bottom: 15px;
+}
+
+
+/* Quran & Tafsir Page Styling */
+.quran-section, .tafsir-section, .recitation-section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Quran & Tafsir Page Styling */
+.iframe-section {
+    width: 95%; /* Make section wider */
+    margin: 20px ; /* Center it */
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+/* iFrame Styling */
+iframe {
+    width: 100%; /* Make it take full width of the container */
+    height: 700px; /* Increase height for better visibility */
+    border: none; /* Remove default border */
+
+}
+
+
+/* Section Titles */
+.iframe-title {
+    color: #065535;
+    text-align: center;
+}
+
+/* Quiz Page Styling */
+.quiz-section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Section Titles */
+.quiz-title {
+    color: #065535;
+    text-align: center;
+}
+
+/* Quiz Box Styling */
+.quiz {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Quiz Buttons (Options) */
+.option {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #028174;
+    color: white;
+    border-radius: 5px;
+}
+
+.option:hover {
+    background-color: #026e5f;
+}
+
+/* Quiz Result Message */
+#quiz-result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* ========== Video Page Styles ========== */
+.video-container {
+    margin: 20px auto; /* Centers and adds spacing between videos */
+    width: 600px; /* Matches iframe width */
+    max-width: 100%; /* Ensures responsiveness */
+    text-align: center; /* Centers contents */
+
+}
+
+.video-container iframe {
+    display: block; /* Removes inline spacing issues */
+    margin: 0 auto; /* Centers iframe */
+    width: 100%; /* Makes iframe responsive within container */
+    height: auto; /* Maintains aspect ratio */
+    aspect-ratio: 16 / 9; /* Ensures proper video aspect ratio */
+}
+
+.video-desc {
+    font-size: 16px; /* Readable size */
+    color: #555; /* Slightly lighter text */
+    margin-top: 10px; /* Spacing above description */
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .video-container {
+        width: 100%; /* Full width on small screens */
+        padding: 0 10px; /* Adds side padding */
+    }
+}
+
+
+
+
+
+
